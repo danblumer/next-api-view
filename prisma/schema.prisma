@@ -1,0 +1,18 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+datasource db {
+  provider = "sqlite"
+  url      = "sqlite:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+model Messages {
+  id        Int      @default(autoincrement()) @id
+  timestamp Int 
+  subject   String 
+  detail    String 
+  read      Boolean
+}
