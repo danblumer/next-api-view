@@ -12,5 +12,5 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the HOME PAGE.
 # or
-Open [http://localhost:3000/messages] screen.
+Open [http://localhost:3000/messages](http://localhost:3000/messages) Messages Screen.
 
