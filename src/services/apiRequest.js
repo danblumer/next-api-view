@@ -1,6 +1,6 @@
 const url = process.env.NEXT_PUBLIC_API_URL;
 export async function loadAllMessages() {
-  const response = await fetch("http://localhost:3000/api" + "/messages/");
+  const response = await fetch(url + "/messages/");
   let apiData = await response.json();
   return apiData;
 }
